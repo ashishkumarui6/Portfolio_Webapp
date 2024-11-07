@@ -1,10 +1,8 @@
 
 .box{
     padding: 1.25rem 1.50rem;
-    border-radius: 20px;
     opacity: 1;
     background-color: var(--background-color);
-    border: 2px solid #2ed0f9;
 }
 
 .content{
@@ -17,10 +15,7 @@
     transition: 0.5s ;
 }
 
-/* .content:hover{
-    width: 280px;
-    height: 230px;
-} */
+
 
 .content img{
     width: 5rem;
