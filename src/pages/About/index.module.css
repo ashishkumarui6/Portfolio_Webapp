@@ -1,0 +1,12 @@
+.container{
+    padding: 4rem 0;
+}
+
+
+.card{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}

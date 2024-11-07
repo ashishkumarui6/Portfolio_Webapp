@@ -1,0 +1,37 @@
+
+.box{
+    padding: 1.25rem 1.50rem;
+    border-radius: 20px;
+    opacity: 1;
+    background-color: var(--background-color);
+    border: 2px solid #2ed0f9;
+}
+
+.content{
+    min-height: 240px;
+    min-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: 0.5s ;
+}
+
+/* .content:hover{
+    width: 280px;
+    height: 230px;
+} */
+
+.content img{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+
+.content h3{
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 600;
+}
