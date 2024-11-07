@@ -5,6 +5,7 @@ import SectionTitle from "../../shared/SectionTitle";
 import MiniTitle from "../../shared/SectionTitle/MiniTitle";
 import Content from "../../shared/Content";
 import CustomContaienr from "../../ui/container/CustomContainer";
+import { AiFillChrome } from "react-icons/ai";
 import chat from "../../assets/project/chat.png";
 import WorkCard from "../../components/WorkCard";
 
@@ -12,6 +13,8 @@ const Work_card = [
   {
     id: 1,
     img: chat,
+    title: "image",
+    icon: <AiFillChrome />,
     hedding: "Live-chat App",
     para: "Web application that enables users to chat with other users in realtime environment.",
     span1: "node",
@@ -21,6 +24,8 @@ const Work_card = [
   {
     id: 2,
     img: chat,
+    icon: <AiFillChrome />,
+    title: "image",
     hedding: "Live-chat App",
     para: "Web application that enables users to chat with other users in realtime environment.",
     span1: "node",
@@ -30,6 +35,8 @@ const Work_card = [
   {
     id: 3,
     img: chat,
+    icon: <AiFillChrome />,
+    title: "image",
     hedding: "Live-chat App",
     para: "Web application that enables users to chat with other users in realtime environment.",
     span1: "node",
@@ -57,6 +64,8 @@ const Work = () => {
                     <div key={it.id}>
                       <WorkCard
                         src={it.img}
+                        title={it.title}
+                        icon={it.icon}
                         heading={it.hedding}
                         para={it.para}
                         span1={it.span1}
@@ -75,6 +84,8 @@ const Work = () => {
                     <div key={it.id}>
                       <WorkCard
                         src={it.img}
+                        title={it.title}
+                        icon={it.icon}
                         heading={it.hedding}
                         para={it.para}
                         span1={it.span1}
