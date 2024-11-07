@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav>
         <div className={styles.logo}>
           {/* <span>A</span> */}
-          <p>Ashish|Protfolio</p>
+          <p>Ashish | Protfolio</p>
         </div>
         <ul className={styles.ul}>
           <Item name="Home" />

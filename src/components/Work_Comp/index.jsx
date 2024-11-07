@@ -33,9 +33,9 @@ const Exp_data = [
   {
     id: 1,
     icon: <MdCastForEducation />,
-    date: "2024",
-    course: "Matriculation",
-    name: "Sri GB Singh GIC Achalpur,Amethi",
+    date: "Jun 2024 - Present",
+    course: "React Developer",
+    name: "Softflew - Best IT Training Institute in Lucknow",
   },
 ];
 
@@ -53,8 +53,9 @@ const Work_Comp = () => {
           <ul className={styles.ul}>
             {Edu_Data.map((it) => {
               return (
-                <li key={it.id}>
+                <li>
                   <Education
+                    key={it.id}
                     icon={it.icon}
                     date={it.date}
                     course={it.course}
@@ -69,8 +70,9 @@ const Work_Comp = () => {
           <ul className={styles.ul}>
             {Exp_data.map((it) => {
               return (
-                <li key={it.id}>
+                <li>
                   <Education
+                    key={it.id}
                     icon={it.icon}
                     date={it.date}
                     course={it.course}

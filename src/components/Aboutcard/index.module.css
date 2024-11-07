@@ -1,32 +1,22 @@
-
-.box{
-    padding: 1.25rem 1.50rem;
-    opacity: 1;
-    background-color: var(--background-color);
+.card{
+    background: var(--background-color);
+    cursor: pointer;
+    padding: 20px 30px 25px 40px;
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
 }
 
-.content{
-    min-height: 240px;
-    min-width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    transition: 0.5s ;
+.card h1{
+    color: var(--textColor);
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
 }
 
-
-
-.content img{
-    width: 5rem;
-    height: 5rem;
-}
-
-
-
-.content h3{
-    text-align: center;
-    width: 70%;
-    font-size: 20px;
-    font-weight: 600;
+.card p{
+    font-size: 16px;
+    color: var(--textColor);
+    text-transform: uppercase;
 }
